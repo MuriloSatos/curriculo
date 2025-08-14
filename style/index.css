@@ -3,17 +3,35 @@
     height: 900px;
     width: 2%;
 }
-.pai{
+
+.pai {
     display: flex;
 
 }
+
 .contato {
-    font-size: 20px;
     display: flex;
     align-items: center;
-    gap: 8px; /* espaço entre texto e número */
+    gap: 8px;
+    /* espaço entre ícone e texto */
+    font-size: 20px;
 }
 
-#numero {
-    font-size: 18px;
+.icone-whatsapp {
+    width: 24px;
+    /* tamanho do ícone */
+    height: 24px;
+}
+
+.email {
+    display: flex;
+    gap: 8px;
+    /* espaço entre ícone e texto */
+    font-size: 20px;
+}
+
+.icone-email {
+    width: 24px;
+    /* tamanho do ícone */
+    height: 24px;
 }
