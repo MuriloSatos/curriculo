@@ -1,37 +1,76 @@
+/* Lateral esquerda */
 .alturalateral {
-    background-color: rgb(43, 122, 240);
+    background-color: rgb(43, 122, 240); /* azul principal */
     height: 900px;
     width: 2%;
 }
 
+/* Container principal */
 .pai {
     display: flex;
-
 }
 
+/* Seção do meio */
+.meio {
+    background-color: #dfdcdc; /* fundo branco */
+    color: #333; /* texto escuro */
+    padding: 20px;
+}
+
+/* Seção da direita */
+.direita {
+    background-color: #f4f4f4; /* cinza claro */
+    color: #222; /* texto escuro */
+    padding: 20px;
+}
+
+/* Contato WhatsApp */
 .contato {
     display: flex;
     align-items: center;
     gap: 8px;
-    /* espaço entre ícone e texto */
     font-size: 20px;
+    color: #25D366; /* verde do WhatsApp */
 }
 
 .icone-whatsapp {
     width: 24px;
-    /* tamanho do ícone */
     height: 24px;
 }
 
+/* E-mail */
 .email {
     display: flex;
     gap: 8px;
-    /* espaço entre ícone e texto */
     font-size: 20px;
+    color: #007BFF; /* azul para email */
 }
 
 .icone-email {
     width: 24px;
-    /* tamanho do ícone */
     height: 24px;
+}
+
+/* GitHub */
+.git {
+    display: flex;
+    gap: 8px;
+    font-size: 20px;
+    color: #000; /* preto para GitHub */
+}
+
+.icone-git {
+    width: 24px;
+    height: 24px;
+}
+
+/* Sobre mim */
+.sobre-mim-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.sobre-mim-container img {
+    flex-shrink: 0;
 }
