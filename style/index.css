@@ -1,9 +1,20 @@
 /* Lateral esquerda */
 .alturalateral {
-    background-color: rgb(43, 122, 240); /* azul principal */
+    background-color: rgb(43, 122, 240);
+    /* azul principal */
     height: 900px;
     width: 2%;
 }
+
+
+.imagem img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 200px;
+    border: 3px solid #1a3c64;
+}
+
 
 /* Container principal */
 .pai {
@@ -12,15 +23,19 @@
 
 /* Seção do meio */
 .meio {
-    background-color: #dfdcdc; /* fundo branco */
-    color: #333; /* texto escuro */
+    background-color: #e2e0e0;
+    /* fundo branco */
+    color: #333;
+    /* texto escuro */
     padding: 20px;
 }
 
 /* Seção da direita */
 .direita {
-    background-color: #f4f4f4; /* cinza claro */
-    color: #222; /* texto escuro */
+    background-color: #d3cece;
+    /* cinza claro */
+    color: #222;
+    /* texto escuro */
     padding: 20px;
 }
 
@@ -30,7 +45,8 @@
     align-items: center;
     gap: 8px;
     font-size: 20px;
-    color: #25D366; /* verde do WhatsApp */
+    color: #25D366;
+    /* verde do WhatsApp */
 }
 
 
@@ -44,7 +60,8 @@
     display: flex;
     gap: 8px;
     font-size: 20px;
-    color: #007BFF; /* azul para email */
+    color: #007BFF;
+    /* azul para email */
 }
 
 .icone-email {
@@ -57,7 +74,8 @@
     display: flex;
     gap: 8px;
     font-size: 20px;
-    color: #000; /* preto para GitHub */
+    color: #000;
+    /* preto para GitHub */
 }
 
 .icone-git {
