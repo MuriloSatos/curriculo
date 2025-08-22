@@ -8,8 +8,8 @@
 
 
 .imagem img {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     object-fit: cover;
     border-radius: 200px;
     border: 3px solid #1a3c64;
@@ -92,4 +92,79 @@
 
 .sobre-mim-container img {
     flex-shrink: 0;
+}
+
+#icone-edu {
+    height: 60px;
+}
+
+#icone-exp {
+    height: 60px;
+}
+
+#educacao {
+    display: flex;
+}
+
+#educacao h3,
+p {
+    margin-top: 0em;
+    margin-bottom: 1em;
+}
+
+#experiencia {
+    display: flex;
+}
+
+#experiencia h3,
+p {
+    margin-top: 0em;
+    margin-bottom: 1em;
+}
+
+#portugues {
+    display: flex;
+    align-items: center;
+
+}
+
+#portugues h1 {
+    margin-right: 5%;
+    width: 90px;
+}
+
+.bolinha1 {
+    height: 1vw;
+    width: 1vw;
+    background-color: rgb(240, 240, 67);
+    border-radius: 50px;
+    margin-right: 2%
+}
+
+
+#ingles {
+    display: flex;
+    align-items: center;
+
+}
+
+#ingles h1 {
+    margin-right: 5%;
+    width: 90px;
+}
+
+.bolinha2 {
+    height: 1vw;
+    width: 1vw;
+    background-color: rgb(240, 240, 67);
+    border-radius: 50px;
+    margin-right: 2%
+}
+
+.bolinha3 {
+    height: 1vw;
+    width: 1vw;
+    background-color: rgb(136, 134, 134);
+    border-radius: 50px;
+    margin-right: 2%
 }
