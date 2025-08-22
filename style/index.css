@@ -88,6 +88,7 @@
     display: flex;
     align-items: flex-start;
     gap: 10px;
+    font-size: 20px;
 }
 
 .sobre-mim-container img {
@@ -106,19 +107,45 @@
     display: flex;
 }
 
+#habilidade{
+    display: flex;
+}
+
+#idioma{
+    display: flex;
+}
+
+#icone-habilidade{
+    height: 60px;
+}
+#icone-linguagem{
+    height: 60px;
+}
+
+
+#educacao{
+    font-size: 17px;
+}
+
 #educacao h3,
 p {
     margin-top: 0em;
     margin-bottom: 1em;
 }
 
+#tecnico{
+    padding-left: 7%;
+    font-size: 17px;
+}
+
 #experiencia {
     display: flex;
+    font-size: 20px;
 }
 
 #experiencia h3,
 p {
-    margin-top: 0em;
+    margin-top: 1em;
     margin-bottom: 1em;
 }
 
